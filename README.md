@@ -2,7 +2,7 @@
 
 TH18 东方虹龙洞喵玉汉化
 
-所有涉及注入的文件都应该使用**GB18030**编码
+除了`./nonstd.txt`和`./spellCard.txt`为**UTF-8**编码外，所有涉及注入的文件都应该使用**GB18030**编码
 
 ## 文件结构说明
 
@@ -34,9 +34,9 @@ TH18 东方虹龙洞喵玉汉化
 
 | 文件名               | 进度 | 说明                               |
 | -------------------- | ---- | ---------------------------------- |
-| ./data/ability.txt   | ⌛   | 卡牌说明                           |
+| ./data/ability.txt   | ✅  | 卡牌说明                           |
 | ./data/musiccmt.txt  | ⌛   | Music Room                         |
-| ./data/trophy.txt    | ✅   | 成就                               |
+| ./data/trophy.txt    | ⌛   | 成就                               |
 | ./nonstd.txt         | 🚧   | 非标准文本，目前为鬼形兽版本未修改 |
 | ./spellCard.txt      | 🚧   | 符卡文本，目前为鬼形兽版本未修改   |
 | ./dialogue/e01.txt   | ❌   | Ending No. 01                      |
