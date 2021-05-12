@@ -38,7 +38,7 @@ TH18 东方虹龙洞喵玉汉化
 | ./data/musiccmt.txt  | ⌛   | Music Room                         |
 | ./data/trophy.txt    | ⌛   | 成就                               |
 | ./nonstd.txt         | 🚧   | 非标准文本，目前为鬼形兽版本未修改 |
-| ./spellCard.txt      | 🚧   | 符卡文本，未完全测试               |
+| ./spellCard.txt      | ⌛   | 符卡文本，未完全测试               |
 | ./dialogue/e01.txt   | ❌   | Ending No. 01                      |
 | ./dialogue/e02.txt   | ❌   | Ending No. 02                      |
 | ./dialogue/e03.txt   | ❌   | Ending No. 03                      |
