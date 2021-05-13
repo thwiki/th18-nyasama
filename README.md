@@ -8,7 +8,7 @@ TH18 东方虹龙洞喵玉汉化
 
 ```
 ./data/             #对data的注入文件
-./data/ability.txt  #卡牌说明
+./data/ability.txt  #卡牌说明，长于24个全角字符会导致出框
 ./data/musiccmt.txt #Music Room
 ./data/trophy.txt   #成就
 ./dialogue/         #对话注入文件，需要使用THTK将TXT对话打包成MSG格式放入./data/下 目前为日文原版（Shift-JIS）未修改
