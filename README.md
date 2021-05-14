@@ -7,20 +7,26 @@ TH18 东方虹龙洞喵玉汉化
 ## 文件结构说明
 
 所有中文对话文件均按照`filename.gb18030.txt`命名，如`e01.gb18030.txt`、`st01a.gb18030.txt`
+
+`./thtk/create_allmsg.ps1`脚本文件需要同级目录下有新版[THTK](https://github.com/thpatch/thtk)的`thmsg.exe`程序和`thtk.dll`，release未更新需要自行编译
+
+
+对话中一个字符单位为16像素，ruby时注意
 ```
-./data/             #对data的注入文件
-./data/ability.txt  #卡牌说明，长于24个全角字符会导致出框
-./data/musiccmt.txt #Music Room
-./data/trophy.txt   #成就
-./dialogue/         #日文对话文件，Shift-JIS编码
-./dialogue_cn/      #中文对话文件，需要使用THTK的THMSG将TXT对话打包成MSG格式放入./data/下
-./config.json       #更新用配置
-./local_file        #空文件
-./nonstd.txt        #非标准文本，目前为鬼形兽版本未修改
-./omake(cn).txt     #omake
-./readme(cn).txt    #readme
-./spellCard.txt     #符卡文本
-./th18c.exe         #喵玉汉化主程序
+./data/                     #对data的注入文件
+./data/ability.txt          #卡牌说明，长于24个全角字符会导致出框
+./data/musiccmt.txt         #Music Room
+./data/trophy.txt           #成就
+./dialogue/                 #日文对话文件，Shift-JIS编码
+./dialogue_cn/              #中文对话文件，需要使用THTK的THMSG将TXT对话打包成MSG格式放入./data/下
+./thtk/create_allmsg.ps1    #把./dialogue_cn/中的txt打包成MSG放入./data/
+./config.json               #更新用配置
+./local_file                #空文件
+./nonstd.txt                #非标准文本，目前为鬼形兽版本未修改
+./omake(cn).txt             #omake
+./readme(cn).txt            #readme
+./spellCard.txt             #符卡文本
+./th18c.exe                 #喵玉汉化主程序
 ```
 
 ## 游戏运行需要文件
@@ -61,11 +67,11 @@ TH18 东方虹龙洞喵玉汉化
 | ./dialogue_cn/st01b.gb18030.txt | ❌   | STAGE1 魔理沙                          |
 | ./dialogue_cn/st01c.gb18030.txt | ❌   | STAGE1 咲夜                            |
 | ./dialogue_cn/st01d.gb18030.txt | ❌   | STAGE1 早苗                            |
-| ./dialogue_cn/st02a.gb18030.txt | ❌   | STAGE2 灵梦                            |
+| ./dialogue_cn/st02a.gb18030.txt | ✅   | STAGE2 灵梦                            |
 | ./dialogue_cn/st02b.gb18030.txt | ❌   | STAGE2 魔理沙                          |
 | ./dialogue_cn/st02c.gb18030.txt | ❌   | STAGE2 咲夜                            |
 | ./dialogue_cn/st02d.gb18030.txt | ❌   | STAGE2 早苗                            |
-| ./dialogue_cn/st03a.gb18030.txt | ❌   | STAGE3 灵梦                            |
+| ./dialogue_cn/st03a.gb18030.txt | ✅   | STAGE3 灵梦                            |
 | ./dialogue_cn/st03b.gb18030.txt | ❌   | STAGE3 魔理沙                          |
 | ./dialogue_cn/st03c.gb18030.txt | ❌   | STAGE3 咲夜                            |
 | ./dialogue_cn/st03d.gb18030.txt | ❌   | STAGE3 早苗                            |
