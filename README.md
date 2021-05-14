@@ -6,12 +6,14 @@ TH18 东方虹龙洞喵玉汉化
 
 ## 文件结构说明
 
+所有中文对话文件均按照`filename.gb18030.txt`命名，如`e01.gb18030.txt`、`st01a.gb18030.txt`
 ```
 ./data/             #对data的注入文件
 ./data/ability.txt  #卡牌说明，长于24个全角字符会导致出框
 ./data/musiccmt.txt #Music Room
 ./data/trophy.txt   #成就
-./dialogue/         #对话注入文件，需要使用THTK将TXT对话打包成MSG格式放入./data/下 目前为日文原版（Shift-JIS）未修改
+./dialogue/         #日文对话文件，Shift-JIS编码
+./dialogue_cn/      #中文对话文件，需要使用THTK的THMSG将TXT对话打包成MSG格式放入./data/下
 ./config.json       #更新用配置
 ./local_file        #空文件
 ./nonstd.txt        #非标准文本，目前为鬼形兽版本未修改
@@ -34,55 +36,55 @@ TH18 东方虹龙洞喵玉汉化
 
 ## TODO
 
-| 文件名               | 进度 | 说明                                   |
-| -------------------- | ---- | -------------------------------------- |
-| ./data/ability.txt   | ✅   | 卡牌说明                               |
-| ./data/musiccmt.txt  | ⌛   | Music Room，需要等程序解决音符替换问题 |
-| ./data/trophy.txt    | ⌛   | 成就，目前未测试游戏内解锁效果         |
-| ./nonstd.txt         | 🚧   | 非标准文本，目前为鬼形兽版本未修改     |
-| ./omake(cn).txt      | ✅   | omake                                  |
-| ./readme(cn).txt     | ✅   | readme                                 |
-| ./spellCard.txt      | ✅   | 符卡文本                               |
-| ./dialogue/e01.txt   | ❌   | Ending No. 01                          |
-| ./dialogue/e02.txt   | ❌   | Ending No. 02                          |
-| ./dialogue/e03.txt   | ❌   | Ending No. 03                          |
-| ./dialogue/e04.txt   | ❌   | Ending No. 04                          |
-| ./dialogue/e05.txt   | ❌   | Ending No. 05                          |
-| ./dialogue/e06.txt   | ❌   | Ending No. 06                          |
-| ./dialogue/e07.txt   | ❌   | Ending No. 07                          |
-| ./dialogue/e08.txt   | ❌   | Ending No. 08                          |
-| ./dialogue/e09.txt   | ❌   | BAD Ending 　 No.09                    |
-| ./dialogue/e10.txt   | ❌   | BAD Ending 　 No.10                    |
-| ./dialogue/e11.txt   | ❌   | BAD Ending 　 No.11                    |
-| ./dialogue/e12.txt   | ❌   | BAD Ending 　 No.12                    |
-| ./dialogue/st01a.txt | ❌   | STAGE1 灵梦                            |
-| ./dialogue/st01b.txt | ❌   | STAGE1 魔理沙                          |
-| ./dialogue/st01c.txt | ❌   | STAGE1 咲夜                            |
-| ./dialogue/st01d.txt | ❌   | STAGE1 早苗                            |
-| ./dialogue/st02a.txt | ❌   | STAGE2 灵梦                            |
-| ./dialogue/st02b.txt | ❌   | STAGE2 魔理沙                          |
-| ./dialogue/st02c.txt | ❌   | STAGE2 咲夜                            |
-| ./dialogue/st02d.txt | ❌   | STAGE2 早苗                            |
-| ./dialogue/st03a.txt | ❌   | STAGE3 灵梦                            |
-| ./dialogue/st03b.txt | ❌   | STAGE3 魔理沙                          |
-| ./dialogue/st03c.txt | ❌   | STAGE3 咲夜                            |
-| ./dialogue/st03d.txt | ❌   | STAGE3 早苗                            |
-| ./dialogue/st04a.txt | ❌   | STAGE4 灵梦                            |
-| ./dialogue/st04b.txt | ❌   | STAGE4 魔理沙                          |
-| ./dialogue/st04c.txt | ❌   | STAGE4 咲夜                            |
-| ./dialogue/st04d.txt | ❌   | STAGE4 早苗                            |
-| ./dialogue/st05a.txt | ❌   | STAGE5 灵梦                            |
-| ./dialogue/st05b.txt | ❌   | STAGE5 魔理沙                          |
-| ./dialogue/st05c.txt | ❌   | STAGE5 咲夜                            |
-| ./dialogue/st05d.txt | ❌   | STAGE5 早苗                            |
-| ./dialogue/st06a.txt | ❌   | STAGE6 灵梦                            |
-| ./dialogue/st06b.txt | ❌   | STAGE6 魔理沙                          |
-| ./dialogue/st06c.txt | ❌   | STAGE6 咲夜                            |
-| ./dialogue/st06d.txt | ❌   | STAGE6 早苗                            |
-| ./dialogue/st07a.txt | ❌   | EXTRA 灵梦                             |
-| ./dialogue/st07b.txt | ❌   | EXTRA 魔理沙                           |
-| ./dialogue/st07c.txt | ❌   | EXTRA 咲夜                             |
-| ./dialogue/st07d.txt | ❌   | EXTRA 早苗                             |
+| 文件名                          | 进度 | 说明                                   |
+| ------------------------------- | ---- | -------------------------------------- |
+| ./data/ability.txt              | ✅   | 卡牌说明                               |
+| ./data/musiccmt.txt             | ⌛   | Music Room，需要等程序解决音符替换问题 |
+| ./data/trophy.txt               | ⌛   | 成就，目前未测试游戏内解锁效果         |
+| ./nonstd.txt                    | 🚧   | 非标准文本，目前为鬼形兽版本未修改     |
+| ./omake(cn).txt                 | ✅   | omake                                  |
+| ./readme(cn).txt                | ✅   | readme                                 |
+| ./spellCard.txt                 | ✅   | 符卡文本                               |
+| ./dialogue_cn/e01.gb18030.txt   | ❌   | Ending No. 01                          |
+| ./dialogue_cn/e02.gb18030.txt   | ❌   | Ending No. 02                          |
+| ./dialogue_cn/e03.gb18030.txt   | ❌   | Ending No. 03                          |
+| ./dialogue_cn/e04.gb18030.txt   | ❌   | Ending No. 04                          |
+| ./dialogue_cn/e05.gb18030.txt   | ❌   | Ending No. 05                          |
+| ./dialogue_cn/e06.gb18030.txt   | ❌   | Ending No. 06                          |
+| ./dialogue_cn/e07.gb18030.txt   | ❌   | Ending No. 07                          |
+| ./dialogue_cn/e08.gb18030.txt   | ❌   | Ending No. 08                          |
+| ./dialogue_cn/e09.gb18030.txt   | ❌   | BAD Ending 　 No.09                    |
+| ./dialogue_cn/e10.gb18030.txt   | ❌   | BAD Ending 　 No.10                    |
+| ./dialogue_cn/e11.gb18030.txt   | ❌   | BAD Ending 　 No.11                    |
+| ./dialogue_cn/e12.gb18030.txt   | ❌   | BAD Ending 　 No.12                    |
+| ./dialogue_cn/st01a.gb18030.txt | ✅   | STAGE1 灵梦                            |
+| ./dialogue_cn/st01b.gb18030.txt | ❌   | STAGE1 魔理沙                          |
+| ./dialogue_cn/st01c.gb18030.txt | ❌   | STAGE1 咲夜                            |
+| ./dialogue_cn/st01d.gb18030.txt | ❌   | STAGE1 早苗                            |
+| ./dialogue_cn/st02a.gb18030.txt | ❌   | STAGE2 灵梦                            |
+| ./dialogue_cn/st02b.gb18030.txt | ❌   | STAGE2 魔理沙                          |
+| ./dialogue_cn/st02c.gb18030.txt | ❌   | STAGE2 咲夜                            |
+| ./dialogue_cn/st02d.gb18030.txt | ❌   | STAGE2 早苗                            |
+| ./dialogue_cn/st03a.gb18030.txt | ❌   | STAGE3 灵梦                            |
+| ./dialogue_cn/st03b.gb18030.txt | ❌   | STAGE3 魔理沙                          |
+| ./dialogue_cn/st03c.gb18030.txt | ❌   | STAGE3 咲夜                            |
+| ./dialogue_cn/st03d.gb18030.txt | ❌   | STAGE3 早苗                            |
+| ./dialogue_cn/st04a.gb18030.txt | ❌   | STAGE4 灵梦                            |
+| ./dialogue_cn/st04b.gb18030.txt | ❌   | STAGE4 魔理沙                          |
+| ./dialogue_cn/st04c.gb18030.txt | ❌   | STAGE4 咲夜                            |
+| ./dialogue_cn/st04d.gb18030.txt | ❌   | STAGE4 早苗                            |
+| ./dialogue_cn/st05a.gb18030.txt | ❌   | STAGE5 灵梦                            |
+| ./dialogue_cn/st05b.gb18030.txt | ❌   | STAGE5 魔理沙                          |
+| ./dialogue_cn/st05c.gb18030.txt | ❌   | STAGE5 咲夜                            |
+| ./dialogue_cn/st05d.gb18030.txt | ❌   | STAGE5 早苗                            |
+| ./dialogue_cn/st06a.gb18030.txt | ❌   | STAGE6 灵梦                            |
+| ./dialogue_cn/st06b.gb18030.txt | ❌   | STAGE6 魔理沙                          |
+| ./dialogue_cn/st06c.gb18030.txt | ❌   | STAGE6 咲夜                            |
+| ./dialogue_cn/st06d.gb18030.txt | ❌   | STAGE6 早苗                            |
+| ./dialogue_cn/st07a.gb18030.txt | ❌   | EXTRA 灵梦                             |
+| ./dialogue_cn/st07b.gb18030.txt | ❌   | EXTRA 魔理沙                           |
+| ./dialogue_cn/st07c.gb18030.txt | ❌   | EXTRA 咲夜                             |
+| ./dialogue_cn/st07d.gb18030.txt | ❌   | EXTRA 早苗                             |
 
 ## 进度说明
 
