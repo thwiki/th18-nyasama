@@ -2,6 +2,16 @@
 custom.exe
 omake.txt
 readme.txt
-th18.dat
+*.dat
 th18.exe
-thbgm.dat
+*.zip
+log.txt
+
+#ignore thtk
+thtk/
+!thtk/create_allmsg.ps1
+
+#ingnore others
+Others/
+msg_jp/
+temp/
