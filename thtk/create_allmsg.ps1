@@ -15,7 +15,6 @@ ForEach-Object{
 
 Get-ChildItem ..\dialogue_cn\ |
 Where-Object {$_.Name -match '^e.*gb18030' } |
-# dump msg to txt
 ForEach-Object{
     $parttern = '^e\d{2}'
     $match = select-string -Pattern $parttern -inputobject $_.BaseName
