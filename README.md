@@ -51,16 +51,16 @@ TH18 东方虹龙洞喵玉汉化
 | ./omake(cn).txt                 | ✅   | omake                                  |
 | ./readme(cn).txt                | ✅   | readme                                 |
 | ./spellCard.txt                 | ✅   | 符卡文本                               |
-| ./dialogue_cn/e01.gb18030.txt   | ❌   | Ending No. 01                          |
-| ./dialogue_cn/e02.gb18030.txt   | ❌   | Ending No. 02                          |
+| ./dialogue_cn/e01.gb18030.txt   | ✅   | Ending No. 01                          |
+| ./dialogue_cn/e02.gb18030.txt   | ✅   | Ending No. 02                          |
 | ./dialogue_cn/e03.gb18030.txt   | ❌   | Ending No. 03                          |
 | ./dialogue_cn/e04.gb18030.txt   | ❌   | Ending No. 04                          |
 | ./dialogue_cn/e05.gb18030.txt   | ❌   | Ending No. 05                          |
 | ./dialogue_cn/e06.gb18030.txt   | ❌   | Ending No. 06                          |
 | ./dialogue_cn/e07.gb18030.txt   | ❌   | Ending No. 07                          |
 | ./dialogue_cn/e08.gb18030.txt   | ❌   | Ending No. 08                          |
-| ./dialogue_cn/e09.gb18030.txt   | ❌   | BAD Ending 　 No.09                    |
-| ./dialogue_cn/e10.gb18030.txt   | ❌   | BAD Ending 　 No.10                    |
+| ./dialogue_cn/e09.gb18030.txt   | ✅   | BAD Ending 　 No.09                    |
+| ./dialogue_cn/e10.gb18030.txt   | ✅   | BAD Ending 　 No.10                    |
 | ./dialogue_cn/e11.gb18030.txt   | ❌   | BAD Ending 　 No.11                    |
 | ./dialogue_cn/e12.gb18030.txt   | ❌   | BAD Ending 　 No.12                    |
 | ./dialogue_cn/st01a.gb18030.txt | ✅   | STAGE1 灵梦                            |
@@ -75,15 +75,15 @@ TH18 东方虹龙洞喵玉汉化
 | ./dialogue_cn/st03b.gb18030.txt | 🚧   | STAGE3 魔理沙，翻译为体验版时版本      |
 | ./dialogue_cn/st03c.gb18030.txt | 🚧   | STAGE3 咲夜，翻译为体验版时版本        |
 | ./dialogue_cn/st03d.gb18030.txt | 🚧   | STAGE3 早苗，翻译为体验版时版本        |
-| ./dialogue_cn/st04a.gb18030.txt | 🚧   | STAGE4 灵梦，差一句对话                |
+| ./dialogue_cn/st04a.gb18030.txt | ✅    | STAGE4 灵梦               |
 | ./dialogue_cn/st04b.gb18030.txt | ❌   | STAGE4 魔理沙                          |
 | ./dialogue_cn/st04c.gb18030.txt | ❌   | STAGE4 咲夜                            |
 | ./dialogue_cn/st04d.gb18030.txt | ❌   | STAGE4 早苗                            |
-| ./dialogue_cn/st05a.gb18030.txt | ❌   | STAGE5 灵梦                            |
+| ./dialogue_cn/st05a.gb18030.txt | ✅   | STAGE5 灵梦                            |
 | ./dialogue_cn/st05b.gb18030.txt | ❌   | STAGE5 魔理沙                          |
 | ./dialogue_cn/st05c.gb18030.txt | ❌   | STAGE5 咲夜                            |
 | ./dialogue_cn/st05d.gb18030.txt | ❌   | STAGE5 早苗                            |
-| ./dialogue_cn/st06a.gb18030.txt | ❌   | STAGE6 灵梦                            |
+| ./dialogue_cn/st06a.gb18030.txt | ✅   | STAGE6 灵梦                            |
 | ./dialogue_cn/st06b.gb18030.txt | ❌   | STAGE6 魔理沙                          |
 | ./dialogue_cn/st06c.gb18030.txt | ❌   | STAGE6 咲夜                            |
 | ./dialogue_cn/st06d.gb18030.txt | ❌   | STAGE6 早苗                            |
