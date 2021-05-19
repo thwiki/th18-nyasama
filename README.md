@@ -64,7 +64,7 @@ TH18 东方虹龙洞喵玉汉化
 | ./dialogue_cn/e11.gb18030.txt   | ✅   | BAD Ending 　 No.11                    |
 | ./dialogue_cn/e12.gb18030.txt   | ✅   | BAD Ending 　 No.12                    |
 | ./dialogue_cn/st01a.gb18030.txt | ✅   | STAGE1 灵梦                            |
-| ./dialogue_cn/st01b.gb18030.txt | ✅   | STAGE1 魔理沙，翻译为体验版时版本      |
+| ./dialogue_cn/st01b.gb18030.txt | ✅   | STAGE1 魔理沙                          |
 | ./dialogue_cn/st01c.gb18030.txt | 🚧   | STAGE1 咲夜，翻译为体验版时版本        |
 | ./dialogue_cn/st01d.gb18030.txt | 🚧   | STAGE1 早苗，翻译为体验版时版本        |
 | ./dialogue_cn/st02a.gb18030.txt | ✅   | STAGE2 灵梦                            |
@@ -72,7 +72,7 @@ TH18 东方虹龙洞喵玉汉化
 | ./dialogue_cn/st02c.gb18030.txt | 🚧   | STAGE2 咲夜，翻译为体验版时版本        |
 | ./dialogue_cn/st02d.gb18030.txt | 🚧   | STAGE2 早苗，翻译为体验版时版本        |
 | ./dialogue_cn/st03a.gb18030.txt | ✅   | STAGE3 灵梦                            |
-| ./dialogue_cn/st03b.gb18030.txt | ✅   | STAGE3 魔理沙，翻译为体验版时版本      |
+| ./dialogue_cn/st03b.gb18030.txt | ✅   | STAGE3 魔理沙                          |
 | ./dialogue_cn/st03c.gb18030.txt | 🚧   | STAGE3 咲夜，翻译为体验版时版本        |
 | ./dialogue_cn/st03d.gb18030.txt | 🚧   | STAGE3 早苗，翻译为体验版时版本        |
 | ./dialogue_cn/st04a.gb18030.txt | ✅   | STAGE4 灵梦                            |
