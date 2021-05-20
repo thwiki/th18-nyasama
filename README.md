@@ -84,7 +84,7 @@ TH18 东方虹龙洞喵玉汉化
 | ./dialogue_cn/st05c.gb18030.txt | ❌   | STAGE5 咲夜                            |
 | ./dialogue_cn/st05d.gb18030.txt | ❌   | STAGE5 早苗                            |
 | ./dialogue_cn/st06a.gb18030.txt | ✅   | STAGE6 灵梦                            |
-| ./dialogue_cn/st06b.gb18030.txt | 🚧   | STAGE6 魔理沙                          |
+| ./dialogue_cn/st06b.gb18030.txt | ✅   | STAGE6 魔理沙                          |
 | ./dialogue_cn/st06c.gb18030.txt | ❌   | STAGE6 咲夜                            |
 | ./dialogue_cn/st06d.gb18030.txt | ❌   | STAGE6 早苗                            |
 | ./dialogue_cn/st07a.gb18030.txt | ❌   | EXTRA 灵梦                             |
