@@ -11,7 +11,10 @@ log.txt
 thtk/
 !thtk/create_allmsg.ps1
 
-#ingnore others
+#ignore others
 Others/
 msg_jp/
 temp/
+
+#ignore plugin localhistory
+.history/
